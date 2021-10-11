@@ -11,7 +11,7 @@ const Home = () => {
 
     return (
         <React.Fragment>
-            <div className='bg-landing vh-100 d-flex flex-column'>
+            <div className='bg-landing min-vh-100'>
                 <div className='container bg-header pt-2 pb-3'>
                     <div className="container">
                         <img className='w-25' src={Logo} alt='Logo' />
