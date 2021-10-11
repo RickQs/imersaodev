@@ -83,7 +83,7 @@ const Home = () => {
 
                     <div>
                         <h1 className='orange fw-800 m-0'>E PRONTO!</h1>
-                        <p className='black text-content fs-6'>sua estação de trabalho está reservada.</p>
+                        <p className='black text-content fs-6'>sua <span className='purple'>estação de trabalho</span> está <span className='purple'>reservada</span>.</p>
                     </div>
                 </div>
             </div>
