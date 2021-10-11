@@ -22,7 +22,7 @@ const Home = () => {
                     <div className='container text-content'>
                         <img className='img-fluid' src={Workers} alt='Funcionários se cumprimentando.' />
                         <p>
-                            agora você <span className='orange'>#sanguelaranja</span> tem a <span className='orange'>opção</span> de trabalhar em nossos
+                            agora você <span className='light-orange'>#sanguelaranja</span> tem a <span className='light-orange'>opção</span> de trabalhar em nossos
                             escritórios!
                         </p>
                         <input className='bg-orange w-100 rounded-2 p-2' type='button' value='Realizar Agendamento' />
