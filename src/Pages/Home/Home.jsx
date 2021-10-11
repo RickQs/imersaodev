@@ -2,7 +2,6 @@ import React from 'react';
 
 import Workers from './../../Assets/workers.svg';
 import Logo from './../../Assets/logo.png';
-import Header from './../../Assets/header.svg';
 
 import './Home.css';
 
