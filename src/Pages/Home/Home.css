@@ -1,34 +1,32 @@
 /* COLORS */
-.bgHeader {
+.bg-header {
     background: #4444AF;
     filter: drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.25));
 }
 
-.bgLanding {
+.bg-landing {
     background: linear-gradient(180deg, #404099 69.34%, rgba(64, 64, 153, 0.8) 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.bgOrange {
-    background-color: #FE4400;
-}
-.orange {
-    color: #FE4400;
+.bg-orange { background-color: #FE4400 }
+.orange { color: #FE4400 }
+
+.black { color: #2B2B2B }
+
+.purple { color: #404099 }
+
+.card {
+    background-color: #FAFAFA;
+    border-color: #EAEAEA;
 }
 
 /* TEXT */
-.title {
-    letter-spacing: .1em;
-}
+.title { letter-spacing: .1em }
 
-.text-content {
-    font-family: 'Open Sans';
-}
+.text-content { font-family: 'Open Sans' }
 
-.label {
-    font-size: 0.75rem;
-}
+.label { font-size: 0.75rem }
+.label-sm { font-size: 0.625rem }
 
-.fw-800 {
-    font-weight: 800;
-}
+.fw-800 { font-weight: 800 }
