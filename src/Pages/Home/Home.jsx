@@ -2,6 +2,8 @@ import React from 'react';
 
 import Workers from './../../Assets/workers.svg';
 import Logo from './../../Assets/logo.png';
+import Calendar from './../../Assets/calendar.svg';
+import WomanWorking from './../../Assets/woman-working.svg';
 
 import './Home.css';
 
@@ -18,14 +20,13 @@ const Home = () => {
                 </div>
                 <div className='container text-center m-auto'>
                     <div className='container text-content'>
-                        <img className='img-fluid' src={Workers} alt='Funcionários se cumprimentando' />
+                        <img className='img-fluid' src={Workers} alt='Funcionários se cumprimentando.' />
                         <p>
-                            agora você <span className='orange'>#sanguelaranja</span> tem a
-                            <span className='orange'> opção</span> de trabalhar em nossos
+                            agora você <span className='orange'>#sanguelaranja</span> tem a <span className='orange'>opção</span> de trabalhar em nossos
                             escritórios!
                         </p>
                         <input className='bg-orange w-100 rounded-2 p-2' type='button' value='Realizar Agendamento' />
-                        <span className='label'>todos os protocolos serão respeitados.</span>
+                        <span className='label'>todos os protocolos de segurança serão respeitados.</span>
                     </div>
                 </div>
             </div>
@@ -33,12 +34,13 @@ const Home = () => {
             <div className='container mt-3'>
                 <div className="container">
                     <h1 className='orange'>O AGENDAMENTO</h1>
-                    <div className='mt-3'>
+                    <div className='mt-4'>
+
                         <h1 className='black'>1. ESCOLHER ESCRITÓRIO</h1>
                         <div className="d-flex flex-column w-100">
                             <div className="card shadow-sm mb-2">
-                                <div className="d-flex align-items-center justify-content-evenly mt-3">
-                                    <div>
+                                <div className="d-flex align-items-center justify-content-between mt-3">
+                                    <div className='ms-4'>
                                         <h2 className='orange fw-800'>SÃO PAULO</h2>
                                         <p className='black text-content label'>
                                             Rua Bela Cintra, 986 <br />
@@ -46,14 +48,14 @@ const Home = () => {
                                             Consolação, São Paulo - SP
                                         </p>
                                     </div>
-                                    <div className='align-self-start'>
+                                    <div className='me-4 align-self-start'>
                                         <h3 className='purple fw-800'>sede</h3>
                                     </div>
                                 </div>
                             </div>
                             <div className="card shadow-sm">
-                                <div className="d-flex align-items-center justify-content-evenly mt-3">
-                                    <div>
+                                <div className="d-flex align-items-center justify-content-between mt-3">
+                                    <div className='ms-4'>
                                         <h2 className='orange fw-800'>SANTOS</h2>
                                         <p className='black text-content label'>
                                             Praça dos Expedicionários, 19 <br />
@@ -61,12 +63,27 @@ const Home = () => {
                                             Gonzaga, Santos - SP
                                         </p>
                                     </div>
-                                    <div className='align-self-start'>
+                                    <div className='me-4 align-self-start'>
                                         <h3 className='purple fw-800'>filial</h3>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+                    <div className="mt-4">
+                        <h1 className='black'>2. SELECIONAR O DIA</h1>
+                        <img className='img-fluid' src={Calendar} alt="Figura de mulher selecionando dia do calendário." />
+                    </div>
+
+                    <div className="">
+                        <h1 className="black">3. DEFINIR MESA</h1>
+                        <img className='img-fluid' src={WomanWorking} alt="Figura de mulher trabalhando em uma mesa." />
+                    </div>
+
+                    <div>
+                        <h1 className='orange fw-800 m-0'>E PRONTO!</h1>
+                        <p className='black text-content fs-6'>sua estação de trabalho está reservada.</p>
                     </div>
                 </div>
             </div>
