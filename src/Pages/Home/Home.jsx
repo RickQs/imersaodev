@@ -26,15 +26,32 @@ const Home = () => {
                             </div>
                             <div className="col-md-5 pt-md-5 d-flex flex-column justify-content-between">
                                 <p className='d-md-block d-none fs-4'>
-                                    agora você <span className='light-orange fst-italic'>#sanguelaranja</span> tem a <span className='light-orange'>opção</span> de trabalhar em nossos
+                                    Agora você <span className='light-orange fst-italic'>#sanguelaranja</span> tem a <span className='light-orange'>opção</span> de trabalhar em nossos
                                     escritórios!
                                 </p><p className='d-md-none d-block'>
-                                    agora você <span className='light-orange fst-italic'>#sanguelaranja</span> tem a <span className='light-orange'>opção</span> de trabalhar em nossos
+                                    Agora você <span className='light-orange fst-italic'>#sanguelaranja</span> tem a <span className='light-orange'>opção</span> de trabalhar em nossos
                                     escritórios!
                                 </p>
                                 <div>
-                                    <input className='bg-orange w-100 rounded-2 p-2' type='button' value='Realizar Agendamento' />
-                                    <span className='label'>todos os protocolos de segurança serão respeitados.</span>
+                                    <button className='bg-orange w-100 rounded-2 p-2' data-bs-toggle="modal" data-bs-target="#adviceModal">Realizar Agendamento</button>
+                                    <div class="modal fade black text-start" id="adviceModal" tabindex="-1" aria-labelledby="adviceModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="adviceModalLabel">Sistema de Agendamento</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Em desenvolvimento.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendido</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <span className='label opacity-75'>todos os protocolos de segurança serão respeitados.</span>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +110,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className='col-12 text-md-center mt-md-3 border-purple'>
+                    <div className='col-12 text-md-center mt-md-3 border-top-purple'>
                         <h1 className='orange fw-800 mt-3'>E PRONTO!</h1>
                         <p className='black text-content fs-6'>sua <span className='purple'>estação de trabalho</span> está <span className='purple'>reservada</span>.</p>
                     </div>
